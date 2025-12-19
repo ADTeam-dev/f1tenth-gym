@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.005880] (f1tenth_gym_ros) JobQueued: {'identifier': 'f1tenth_gym_ros', 'dependencies': OrderedDict()}
+[0.006826] (f1tenth_gym_ros) JobStarted: {'identifier': 'f1tenth_gym_ros'}
+[0.098611] (-) TimerEvent: {}
+[0.199869] (-) TimerEvent: {}
+[0.302917] (-) TimerEvent: {}
+[0.404092] (-) TimerEvent: {}
+[0.527652] (-) TimerEvent: {}
+[0.628712] (-) TimerEvent: {}
+[0.731769] (-) TimerEvent: {}
+[0.834278] (-) TimerEvent: {}
+[0.935382] (-) TimerEvent: {}
+[1.036449] (-) TimerEvent: {}
+[1.137592] (-) TimerEvent: {}
+[1.238649] (-) TimerEvent: {}
+[1.339943] (-) TimerEvent: {}
+[1.440850] (-) TimerEvent: {}
+[1.542566] (-) TimerEvent: {}
+[1.644026] (-) TimerEvent: {}
+[1.745760] (-) TimerEvent: {}
+[1.848707] (-) TimerEvent: {}
+[1.950089] (-) TimerEvent: {}
+[2.052602] (-) TimerEvent: {}
+[2.153871] (-) TimerEvent: {}
+[2.255409] (-) TimerEvent: {}
+[2.356680] (-) TimerEvent: {}
+[2.457644] (-) TimerEvent: {}
+[2.559285] (-) TimerEvent: {}
+[2.661438] (-) TimerEvent: {}
+[2.763089] (-) TimerEvent: {}
+[2.866225] (-) TimerEvent: {}
+[2.967923] (-) TimerEvent: {}
+[3.068916] (-) TimerEvent: {}
+[3.169988] (-) TimerEvent: {}
+[3.271039] (-) TimerEvent: {}
+[3.372133] (-) TimerEvent: {}
+[3.473191] (-) TimerEvent: {}
+[3.574994] (-) TimerEvent: {}
+[3.676273] (-) TimerEvent: {}
+[3.755482] (f1tenth_gym_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/f1tenth_gym_ros', 'build', '--build-base', '/home/sim/sim_ws/build/f1tenth_gym_ros/build', 'install', '--record', '/home/sim/sim_ws/build/f1tenth_gym_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sim/sim_ws/src/f1tenth_gym_ros', 'env': {'PYTHON_BASIC_REPL': '1', 'HOSTNAME': 'WHZ-50558', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/618725e67565b290ba4da6fe2d29f8fa1d4e3622/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/618725e67565b290ba4da6fe2d29f8fa1d4e3622/bin/helpers/browser.sh', 'HOME': '/home/ros', 'OLDPWD': '/home/sim', 'TERM_PROGRAM_VERSION': '1.107.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-5be14ba4-463b-4509-b0f0-221b045abb25.sock', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/618725e67565b290ba4da6fe2d29f8fa1d4e3622/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/618725e67565b290ba4da6fe2d29f8fa1d4e3622/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-27bf2752-72b5-4c31-84d0-57c884c714b3.sock', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-aeee8881-2ec6-459b-abdd-ce537ccb2197.sock', '_': '/usr/bin/colcon', 'PIP_BREAK_SYSTEM_PACKAGES': '1', 'TERM': 'xterm-256color', 'PATH': '/home/ros/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ros/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/vscode/vscode-server/bin/linux-x64/618725e67565b290ba4da6fe2d29f8fa1d4e3622/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/home/ros/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/ros/.vscode-server/data/User/workspaceStorage/3f5962607f75832ad9ee9479915dde1c/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1000/vscode-git-84f19a5363.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '42', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sim/sim_ws/build/f1tenth_gym_ros', 'LC_ALL': 'C.UTF-8', 'COLCON': '1', 'PYTHONPATH': '/home/sim/sim_ws/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sim/sim_ws/install/f1tenth_gym_ros/lib/python3.12/site-packages:'}, 'shell': False}
+[3.776981] (-) TimerEvent: {}
+[3.879918] (-) TimerEvent: {}
+[3.980812] (-) TimerEvent: {}
+[4.081794] (-) TimerEvent: {}
+[4.183493] (-) TimerEvent: {}
+[4.285296] (-) TimerEvent: {}
+[4.386909] (-) TimerEvent: {}
+[4.488756] (-) TimerEvent: {}
+[4.590415] (-) TimerEvent: {}
+[4.593021] (f1tenth_gym_ros) StdoutLine: {'line': b'running egg_info\n'}
+[4.612614] (f1tenth_gym_ros) StdoutLine: {'line': b'writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO\n'}
+[4.691547] (-) TimerEvent: {}
+[4.793106] (-) TimerEvent: {}
+[4.834064] (f1tenth_gym_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt\n'}
+[4.834938] (f1tenth_gym_ros) StdoutLine: {'line': b'writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt\n'}
+[4.843678] (f1tenth_gym_ros) StdoutLine: {'line': b'writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt\n'}
+[4.844850] (f1tenth_gym_ros) StdoutLine: {'line': b'writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt\n'}
+[4.894253] (-) TimerEvent: {}
+[4.911517] (f1tenth_gym_ros) StdoutLine: {'line': b"reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[4.912926] (f1tenth_gym_ros) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.916914] (f1tenth_gym_ros) StdoutLine: {'line': b"writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[4.918155] (f1tenth_gym_ros) StdoutLine: {'line': b'running build\n'}
+[4.918805] (f1tenth_gym_ros) StdoutLine: {'line': b'running build_py\n'}
+[4.923573] (f1tenth_gym_ros) StdoutLine: {'line': b'running install\n'}
+[4.943437] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_lib\n'}
+[4.970374] (f1tenth_gym_ros) StdoutLine: {'line': b'creating /home/sim/sim_ws/install/f1tenth_gym_ros/lib/python3.12/site-packages/f1tenth_gym_ros\n'}
+[4.972298] (f1tenth_gym_ros) StdoutLine: {'line': b'copying /home/sim/sim_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros/__init__.py -> /home/sim/sim_ws/install/f1tenth_gym_ros/lib/python3.12/site-packages/f1tenth_gym_ros\n'}
+[4.973527] (f1tenth_gym_ros) StdoutLine: {'line': b'copying /home/sim/sim_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros/gym_bridge.py -> /home/sim/sim_ws/install/f1tenth_gym_ros/lib/python3.12/site-packages/f1tenth_gym_ros\n'}
+[4.976876] (f1tenth_gym_ros) StdoutLine: {'line': b'byte-compiling /home/sim/sim_ws/install/f1tenth_gym_ros/lib/python3.12/site-packages/f1tenth_gym_ros/__init__.py to __init__.cpython-312.pyc\n'}
+[4.981067] (f1tenth_gym_ros) StdoutLine: {'line': b'byte-compiling /home/sim/sim_ws/install/f1tenth_gym_ros/lib/python3.12/site-packages/f1tenth_gym_ros/gym_bridge.py to gym_bridge.cpython-312.pyc\n'}
+[4.994899] (-) TimerEvent: {}
+[5.096131] (-) TimerEvent: {}
+[5.168660] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_data\n'}
+[5.169380] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.196800] (f1tenth_gym_ros) StdoutLine: {'line': b'Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/sim/sim_ws/install/f1tenth_gym_ros/lib/python3.12/site-packages/f1tenth_gym_ros-0.0.0-py3.12.egg-info\n'}
+[5.197439] (-) TimerEvent: {}
+[5.212378] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[5.298616] (-) TimerEvent: {}
+[5.391522] (f1tenth_gym_ros) StdoutLine: {'line': b'Installing gym_bridge script to /home/sim/sim_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros\n'}
+[5.544944] (-) TimerEvent: {}
+[5.547659] (f1tenth_gym_ros) StdoutLine: {'line': b"writing list of installed files to '/home/sim/sim_ws/build/f1tenth_gym_ros/install.log'\n"}
+[5.646262] (-) TimerEvent: {}
+[5.655249] (f1tenth_gym_ros) CommandEnded: {'returncode': 0}
+[5.746669] (-) TimerEvent: {}
+[5.847814] (-) TimerEvent: {}
+[5.949407] (-) TimerEvent: {}
+[6.051377] (-) TimerEvent: {}
+[6.153421] (-) TimerEvent: {}
+[6.250286] (f1tenth_gym_ros) JobEnded: {'identifier': 'f1tenth_gym_ros', 'rc': 0}
+[6.252264] (-) EventReactorShutdown: {}

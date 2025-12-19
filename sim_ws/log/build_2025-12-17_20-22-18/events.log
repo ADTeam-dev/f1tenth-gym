@@ -1,0 +1,37 @@
+[0.000000] (-) TimerEvent: {}
+[0.000584] (f1tenth_gym_ros) JobQueued: {'identifier': 'f1tenth_gym_ros', 'dependencies': OrderedDict()}
+[0.001302] (f1tenth_gym_ros) JobStarted: {'identifier': 'f1tenth_gym_ros'}
+[0.099723] (-) TimerEvent: {}
+[0.200462] (-) TimerEvent: {}
+[0.301078] (-) TimerEvent: {}
+[0.401695] (-) TimerEvent: {}
+[0.502218] (-) TimerEvent: {}
+[0.602752] (-) TimerEvent: {}
+[0.703280] (-) TimerEvent: {}
+[0.803718] (-) TimerEvent: {}
+[0.806300] (f1tenth_gym_ros) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/f1tenth_gym_ros', 'build', '--build-base', '/home/sim/sim_ws/build/f1tenth_gym_ros/build', 'install', '--record', '/home/sim/sim_ws/build/f1tenth_gym_ros/install.log', '--single-version-externally-managed'], 'cwd': '/home/sim/sim_ws/src/f1tenth_gym_ros', 'env': {'HOSTNAME': 'WHZ-50558', 'SHLVL': '1', 'HOME': '/home/ros', 'OLDPWD': '/home/sim', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'foxy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-0e2db583-609b-4633-8784-45ef37581395.sock', '_': '/usr/bin/cat', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'REMOTE_CONTAINERS_SOCKETS': '["/home/ros/.gnupg/S.gpg-agent"]', 'LANG': 'C.UTF-8', 'LS_COLORS': '', 'ROS_DOMAIN_ID': '42', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'LC_ALL': 'C.UTF-8', 'PWD': '/home/sim/sim_ws/build/f1tenth_gym_ros', 'COLCON': '1', 'PYTHONPATH': '/home/sim/sim_ws/build/f1tenth_gym_ros/prefix_override:/home/sim/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:'}, 'shell': False}
+[0.904406] (-) TimerEvent: {}
+[0.982986] (f1tenth_gym_ros) StdoutLine: {'line': b'running egg_info\n'}
+[0.983649] (f1tenth_gym_ros) StdoutLine: {'line': b'writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO\n'}
+[0.984112] (f1tenth_gym_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt\n'}
+[0.984410] (f1tenth_gym_ros) StdoutLine: {'line': b'writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt\n'}
+[0.984638] (f1tenth_gym_ros) StdoutLine: {'line': b'writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt\n'}
+[0.985016] (f1tenth_gym_ros) StdoutLine: {'line': b'writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt\n'}
+[1.004531] (-) TimerEvent: {}
+[1.029849] (f1tenth_gym_ros) StdoutLine: {'line': b"reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[1.031423] (f1tenth_gym_ros) StdoutLine: {'line': b"writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[1.031665] (f1tenth_gym_ros) StdoutLine: {'line': b'running build\n'}
+[1.031855] (f1tenth_gym_ros) StdoutLine: {'line': b'running build_py\n'}
+[1.032201] (f1tenth_gym_ros) StdoutLine: {'line': b'running install\n'}
+[1.033379] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_lib\n'}
+[1.035018] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_data\n'}
+[1.035627] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.037774] (f1tenth_gym_ros) StdoutLine: {'line': b"removing '/home/sim/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.038519] (f1tenth_gym_ros) StdoutLine: {'line': b'Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/sim/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info\n'}
+[1.041975] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[1.062377] (f1tenth_gym_ros) StdoutLine: {'line': b'Installing gym_bridge script to /home/sim/sim_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros\n'}
+[1.063141] (f1tenth_gym_ros) StdoutLine: {'line': b"writing list of installed files to '/home/sim/sim_ws/build/f1tenth_gym_ros/install.log'\n"}
+[1.090994] (f1tenth_gym_ros) CommandEnded: {'returncode': 0}
+[1.104892] (-) TimerEvent: {}
+[1.135486] (f1tenth_gym_ros) JobEnded: {'identifier': 'f1tenth_gym_ros', 'rc': 0}
+[1.137490] (-) EventReactorShutdown: {}
