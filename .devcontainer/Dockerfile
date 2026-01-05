@@ -16,8 +16,17 @@ RUN groupadd --gid $USER_GID $USERNAME \
     && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
     && chmod 0440 /etc/sudoers.d/$USERNAME
 RUN apt-get update && apt-get upgrade -y
-RUN apt-get install -y python3-pip
-RUN apt-get 
+RUN apt-get update --fix-missing && \
+    apt-get install -y git \
+                       nano \
+                       vim \
+                       python3-pip \
+                       libeigen3-dev \
+                       tmux \ 
+                       ros-humble-rviz2
+RUN apt-get -y dist-upgrade
+RUN pip3 install transforms3d
+
 ENV SHELL /bin/bash
 
 # ********************************************************
@@ -26,4 +35,6 @@ ENV SHELL /bin/bash
 
 # [Optional] Set the default user. Omit if you want to keep the default as root.
 USER $USERNAME
+RUN echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc 
+RUN echo 'source /home/sim/sim_ws/install/setup.bash' >> ~/.bashrc
 CMD ["/bin/bash"]
