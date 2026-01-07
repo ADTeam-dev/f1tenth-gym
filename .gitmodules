@@ -1,3 +1,6 @@
 [submodule "f1tenth_gym"]
 	path = f1tenth_gym
 	url = https://github.com/f1tenth/f1tenth_gym.git
+[submodule "sim_ws/src/f1tenth_gym_ros"]
+	path = sim_ws/src/f1tenth_gym_ros
+	url = https://github.com/f1tenth/f1tenth_gym_ros.git
