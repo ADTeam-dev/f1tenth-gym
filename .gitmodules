@@ -4,3 +4,6 @@
 [submodule "sim_ws/src/f1tenth_gym_ros"]
 	path = sim_ws/src/f1tenth_gym_ros
 	url = https://github.com/f1tenth/f1tenth_gym_ros.git
+[submodule "sim_ws/src/f1tenth_gym_ros_mod"]
+	path = sim_ws/src/f1tenth_gym_ros_mod
+	url = https://github.com/MrKrabb/f1tenth_gym_ros_mod.git
