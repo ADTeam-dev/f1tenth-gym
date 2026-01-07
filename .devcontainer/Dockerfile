@@ -1,5 +1,5 @@
 FROM ros:humble
-ARG USERNAME=ros
+ARG USERNAME=sim
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
@@ -37,4 +37,5 @@ ENV SHELL /bin/bash
 USER $USERNAME
 RUN echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc 
 RUN echo 'source /home/sim/sim_ws/install/setup.bash' >> ~/.bashrc
+
 CMD ["/bin/bash"]

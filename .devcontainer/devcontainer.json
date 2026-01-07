@@ -36,5 +36,5 @@
     "mounts": [
        "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached"
     ],
-    "postCreateCommand": "sudo rosdep update && sudo rosdep install --from-paths sim_ws/src --ignore-src -y && sudo chown -R $(whoami) /home/sim/ && cd sim_ws && colcon build && cd /home/sim/f1tenth_gym && pip3 install -e ."
+    "postCreateCommand": "sudo rosdep update && sudo apt-get update && sudo rosdep install --from-paths sim_ws/src --ignore-src -y && sudo chown -R $(whoami) /home/sim/ && cd sim_ws && colcon build && cd /home/sim/f1tenth_gym && pip3 install -e ."
 }
